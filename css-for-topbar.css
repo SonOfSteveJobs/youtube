@@ -1,0 +1,138 @@
+.middleside {
+  flex: 1;
+  max-width: 570px;
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.leftside {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.rightside {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 24px;
+  margin-left: 29px;
+  flex-shrink: 0;
+  padding: 0 16px;
+}
+
+.notifications {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.notifications-top {
+  position: absolute;
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 80px;
+  top: -1px;
+  right: -4px;
+    cursor: pointer;
+}
+
+.material-icons {
+  font-family: material;
+  color: white;
+  height: 24px;
+    cursor: pointer;
+}
+.youtube-apps {
+  color: white;
+}
+
+.profile-pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+    cursor: pointer;
+}
+
+.youtube-logo {
+  height: 130%;
+  margin-left: 10px;
+    cursor: pointer;
+}
+
+.searchbar {
+  flex: 1;
+  width: 0;
+  height: 36px;
+  border: 1px;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: #313131;
+  background-color: #121212;
+  font-size: 16px;
+  padding-left: 4px;
+  font-family: Roboto, Arial, sans-serif;
+  color: white;
+}
+.searchbar:focus{
+
+}
+.search-button {
+  height: 40px;
+  width: 64px;
+  background-color: #313131;
+  border: 1px;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: #313131;
+  margin-left: -2px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    cursor: pointer;
+}
+.search-button .tooltip,
+.voice-search-button .tooltip,
+.upload .tooltip,
+.apps .tooltip,
+.notifications .tooltip{
+  position: absolute;
+  color: white;
+  background-color: #313131;
+  opacity: 0;
+  padding: 8px;
+  bottom: -50px;
+  font-size: 12px;
+  border-radius: 2px;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip,
+.upload:hover .tooltip,
+.apps:hover .tooltip,
+.notifications:hover .tooltip{
+    opacity: 0.85;
+}
+.search-icon {
+  width: 24px;
+}
+
+.voice-search-icon {
+margin: -8px 0 0 10px;
+padding: 8px;
+background-color: #181818;
+border-radius: 40px;
+}
+.voice-search-button, .upload, .apps{
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
