@@ -3,8 +3,9 @@
 This is my replication of Youtube layout.
 HTML + CSS only.
 
-Features: used CSS grid, flex, adaptive layout.
+Features: CSS grid, flex, adaptive layout.
 
+## How to run
 Clone the project
 
 ```
